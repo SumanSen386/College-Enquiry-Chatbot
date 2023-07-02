@@ -1,0 +1,376 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through your higher studies. What was your stream in class 12 ?"],
+         "context": [""]
+        },
+        {"tag": "science",
+         "patterns": ["Science", "Stream was Science", "Pure Science", "Bio-Science", "Computer-Science" ],
+         "responses": ["If you are interested in careers in engineering, medical can choose this track. You can select from a variety of courses such as B.Tech, MBBS, BSc., and so on."],
+         "context": [""]
+        },
+        {"tag": "engineering_exams",
+        "patterns": ["What are the Engineering Exams","Engineering Exams" ],
+        "responses": ["Joint Entrance Examination (JEE): JEE is a national level entrance exam conducted by the National Testing Agency (NTA) for admission to undergraduate engineering courses in Indian Institutes of Technology (IITs), National Institutes of Technology (NITs), and other top engineering colleges. State-Level Entrance Exams: Each state in India conducts its own engineering entrance exams for admission to state-level engineering colleges."],
+        "context": [""]
+        },
+        {"tag": "medical_exams",
+        "patterns": ["What are the various Medical exam","MBBS exams" ],
+        "responses": ["National Eligibility cum Entrance Test (NEET): NEET is a national-level entrance exam conducted by the National Testing Agency (NTA) for admission to undergraduate medical courses in Indian medical colleges"],
+        "context": [""]
+        },
+        {"tag": "bsc_exams",
+        "patterns": ["What are the BSC exams Conducted" ],
+        "responses": ["Indian Institutes of Science Education and Research (IISER) Aptitude Test: IISER Aptitude Test is a national level entrance exam conducted for admission to undergraduate science courses at Indian Institutes of Science Education and Research (IISER). State-Level Entrance Exams: Each state in India conducts its own science entrance exams for admission to state-level science colleges. Also it depends on class 12 marks. This may varies college to college"],
+        "context": [""]
+        },
+        {"tag": "bcom",
+        "patterns": ["What are the B.Com courses" ],
+        "responses": ["Students who are interested in the business and finance field can opt for this stream. They can choose courses like B.Com, BBA, CA, CS, CMA, etc."],
+        "context": [""]
+        },
+        {"tag": "commerce_exams",
+        "patterns": ["Commerce","Stream was Commerce" ],
+        "responses": ["Chartered Accountancy (CA) Exam: The Institute of Chartered Accountants of India (ICAI) conducts the CA Exam for admission to the Chartered Accountancy course.BCom course is the gateway to job opportunities in several fields such as Accounting, Finance, Economics, Taxation, Insurance, etc. One can become an Accountant, Financial Analyst, Auditor, etc. after graduating with a BCom degree. This degree is also beneficial to those students who want to run their own businesses.Company Secretary (CS) Exam: The Institute of Company Secretaries of India (ICSI) conducts the CS Exam for admission to the Company Secretary course."],
+        "context": [""]
+        },
+        {"tag": "arts",
+         "patterns": ["Arts","Stream was Arts" ],
+         "responses": ["Students who are interested in pursuing careers in humanities, social sciences, or creative fields can opt for this stream. They can choose from courses like BA, BFA, B.Des, etc."],
+         "context": [""]
+        },
+        {"tag": "arts_exam",
+        "patterns": ["What are the Arts Exam" ],
+        "responses": ["CLAT is a national-level entrance exam conducted by the Consortium of National Law Universities for admission to undergraduate and postgraduate law courses in India.JNUEE is a university-level entrance exam conducted by Jawaharlal Nehru University for admission to undergraduate and postgraduate courses in various fields including arts, science, and social sciences. DUET is a university-level entrance exam conducted by the University of Delhi for admission to undergraduate and postgraduate courses in various fields including arts, commerce, science, and law."],
+        "context": [""]
+        },
+        {"tag": "Vocational_Courses",
+         "patterns": ["Vocational Subject","Stream was Vocational Courses"],
+         "responses": ["Students who are interested in acquiring skills related to various trades can opt for vocational courses. These courses include diploma and certificate courses in various fields like hospitality, tourism, fashion design, etc."],
+         "context": [""]
+        },
+        {"tag": "3_engineering_colleges",
+        "patterns": ["Top 3 Engineering College","What are the top 3 Engineering Colleges in West Bengal", "What are the top 3 B.Tech Colleges in West Bengal"],
+        "responses": ["1. Indian Institute of Technology (IIT) Kharagpur.http://www.iitkgp.ac.in/ \n 2. Jadavpur University (Faculty of Engineering and Technology)http://www.jaduniv.edu.in/\n 3. National Institute of Technology (NIT) Durgapur https://nitdgp.ac.in/ \n Beside all the enginnering colleges their websites are also mentioned .You can verify yourself for ranking , placements and fees so on"],
+        "context": [""]
+        },
+        {"tag": "5_engineering_colleges",
+        "patterns": ["Top 5 Engineering College","What are the top 5 Engineering Colleges in West Bengal", "What are the top 5 B.Tech Colleges in West Bengal"],
+        "responses": ["1. Indian Institute of Technology (IIT) Kharagpur.\n 2. Jadavpur University (Faculty of Engineering and Technology)\n 3. National Institute of Technology (NIT) Durgapur\n 4.Indian Institute of Engineering Science and Technology (IIEST), Shibpur\n 5. Institute of Engineering & Management, Kolkata \n "],
+        "context": [""]
+        },
+        {"tag": "10_engineering_colleges",
+        "patterns": ["Top 10 Engineering College","What are the top 10 Engineering Colleges in West Bengal", "What are the top 10 B.Tech Colleges in West Bengal"],
+        "responses": ["1. Indian Institute of Technology (IIT) Kharagpur.\n 2. Jadavpur University (Faculty of Engineering and Technology)\n 3. National Institute of Technology (NIT) Durgapur\n 4.Indian Institute of Engineering Science and Technology (IIEST), Shibpur\n 5. Institute of Engineering & Management, Kolkata \n 6. Kalyani Government Engineering College\n 7.Heritage Institute of Technology, Kolkata\n 8. Techno India Saltlake, Kolkata\n 9. Haldia Institute of Technology, Haldia\n 10. University of Engineering & Management"],
+        "context": [""]
+        },
+        {"tag": "3_medical_colleges",
+        "patterns": ["What are the top 3 medical Colleges in West Bengal", "What are the top 3 MBBS Colleges in West Bengal"],
+        "responses": ["1. Kolkata Medical College, Kolkata\n 2. Institute of Post Graduate Medical Education And Research - [IPGMER], Kolkata\n 3. R G Kar Medical College\n "],
+        "context": [""]
+        },
+        {"tag": "5_medical_colleges",
+        "patterns": ["What are the top 5 medical Colleges in West Bengal", "What are the top 5 MBBS Colleges in West Bengal"],
+        "responses": ["1. Kolkata Medical College, Kolkata\n 2. Institute of Post Graduate Medical Education And Research - [IPGMER], Kolkata\n 3. R G Kar Medical College\n 4.Nil Ratan Sircar Medical College and Hospital \n 5. North Bengal Medical College and Hospital \n "],
+        "context": [""]
+        },
+        {"tag": "10_medical_colleges",
+        "patterns": ["What are the top 10 medical Colleges in West Bengal", "What are the top 10 MBBS Colleges in West Bengal"],
+        "responses": ["1. Kolkata Medical College, Kolkata\n 2. Institute of Post Graduate Medical Education And Research - [IPGMER], Kolkata\n 3. R G Kar Medical College\n 4.Nil Ratan Sircar Medical College and Hospital \n 5. North Bengal Medical College and Hospital \n 6. Burdwan Medical College (BMC), Burdwan\n 7.Bankura Sammilani Medical College (BSMC)\n 8. Murshidabad Medical College and Hospital,\n 9. All India Institute of Medical Sciences (AIIMS)\n 10. College of Medicine and JNM Hospital"],
+        "context": [""]
+        },
+        {"tag": "3_bsc_colleges",
+        "patterns": ["What are the top 3 bsc Colleges in West Bengal", "What are the top 3 honours Colleges in West Bengal"],
+        "responses": ["1. Presidency University, Kolkata\n 2. St. Xaviers College (SXC) Kolkata\n 3. Ramakrishna Mission Vidyamandira, Howrah\n "],
+        "context": [""]
+        },
+        {"tag": "5_bsc_colleges",
+        "patterns": ["What are the top 5 bsc Colleges in West Bengal", "What are the top 5 honours Colleges in West Bengal"],
+        "responses": ["1. Presidency University, Kolkata\n 2. St. Xaviers College (SXC) Kolkata\n 3. Ramakrishna Mission Vidyamandira, Howrah\n 4.Scottish Church College, Kolkata \n 5. Jadavpur University, Kolkata \n "],
+        "context": [""]
+        },
+        {"tag": "10_bsc_colleges",
+        "patterns": ["What are the top 10 bsc Colleges in West Bengal", "What are the top 10 honours Colleges in West Bengal"],
+        "responses": ["1. Presidency University, Kolkata\n 2. St. Xaviers College (SXC) Kolkata\n 3. Ramakrishna Mission Vidyamandira, Howrah\n 4.Scottish Church College, Kolkata \n 5. Jadavpur University, Kolkata \n 6. Bethune College, Kolkata\n 7.Ramakrishna Mission Residential College, Narendrapur\n 8. Calcutta University, Kolkata\n 9. Asutosh College, Kolkata\n 10. Raja Peary Mohan College, Uttarpara"],
+        "context": [""]
+        },
+        {"tag": "3_commerce_colleges",
+        "patterns": ["What are the top 3 commerce Colleges in West Bengal", "What are the top 5 b.com honours Colleges in West Bengal"],
+        "responses": ["1.St. Xaviers College (SXC) Kolkata \n 2. Shri Shikshayatan College, Kolkata\n 3. Goenka College of Commerce\n "],
+        "context": [""]
+        },
+        {"tag": "5_commerce_colleges",
+        "patterns": ["What are the top 5 commerce Colleges in West Bengal", "What are the top 5 b.com honours Colleges in West Bengal"],
+        "responses": ["1.St. Xaviers College (SXC) Kolkata \n 2. Shri Shikshayatan College, Kolkata\n 3. Goenka College of Commerce\n 4.St. Joseph's College, Darjeeling \n 5. Lady Brabourne College, Kolkata \n "],
+        "context": [""]
+        },
+        {"tag": "10_commerce_colleges",
+        "patterns": ["What are the top 10 commerce Colleges in West Bengal", "What are the top 10 b.com honours Colleges in West Bengal"],
+        "responses": ["1.St. Xaviers College (SXC) Kolkata \n 2. Shri Shikshayatan College, Kolkata\n 3. Goenka College of Commerce\n 4.St. Joseph's College, Darjeeling \n 5. Lady Brabourne College, Kolkata \n 6. Bhawanipur Education Society College, Kolkata\n 7.Scottish Church College, Kolkata\n 8. South Calcutta Commerce College 9. J.D. Birla Institute, Kolkata\n 10. Serampore College, Hooghl"],
+        "context": [""]
+        },
+        {"tag": "IIT_kharagpur_Query",
+         "patterns": ["Seat Matrix of IIT_kharagpur", "Placement of IIT_kharagpur", "Fees Structure of IIT_Kharagpur", "Streams in IIT_Kharagpur", "Review about IIT_Kharagpur" ],
+         "responses": ["you can go through this website : http://www.iitkgp.ac.in \n You can get all information about your query"],
+         "context": [""]
+        },
+
+        {"tag": "Jadavpur_University_Query",
+         "patterns": ["Seat Matrix of Jadavpur University", "Placement ofJadavpur University", "Fees Structure of Jadavpur University", "Streams in Jadavpur University", "Review about Jadavpur University" ],
+         "responses": ["you can go through this website : http://www.jaduniv.edu.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "Indian_Institute_of_Engineering_Science_and_Technology_Shibpur_Query",
+         "patterns": ["Seat Matrix of Indian Institute of Engineering Science and Technology (IIEST)", "Placement of Indian Institute of Engineering Science and Technology (IIEST)", "Fees Structure of Indian Institute of Engineering Science and Technology (IIEST)", "Streams in Indian Institute of Engineering Science and Technology (IIEST)", "Review about Indian Institute of Engineering Science and Technology (IIEST)" ],
+         "responses": ["you can go through this website : https://www.iiests.ac.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "IIEST_Shibpur_Query",
+        "patterns": ["Seat Matrix of Indian Institute of Engineering Science and Technology (IIEST)", "Placement of Indian Institute of Engineering Science and Technology (IIEST)", "Fees Structure of Indian Institute of Engineering Science and Technology (IIEST)", "Streams in Indian Institute of Engineering Science and Technology (IIEST)", "Review about Indian Institute of Engineering Science and Technology (IIEST)" ],
+        "responses": ["you can go through this website : https://www.iiests.ac.in/ \n You can get all information about your query"],
+        "context": [""]
+        },
+        {"tag": "NIT_Durgapur_Query",
+         "patterns": ["Seat Matrix of NIT_Durgapur", "Placement of NIT_Durgapur", "Fees Structure of NIT_Durgapur", "Streams in NIT_Durgapur", "Review about NIT_Durgapurr" ],
+         "responses": ["you can go through this website :https://www.nitdgp.ac.in/  \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "Institute_of_Engineering_and_Management_Kolkata_Query",
+         "patterns": ["Seat Matrix of Institute of Engineering and Management, Kolkata", "Placement of Institute of Engineering and Management (IEM), Kolkata", "Fees Structure of Institute of Engineering and Management (IEM), Kolkata", "Streams in Institute of Engineering and Management (IEM), Kolkata", "Review about Institute of Engineering and Management (IEM), Kolkata" ],
+         "responses": ["you can go through this website : https://iem.edu.in/  \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "IEM_Kolkata_Query",
+        "patterns": ["Seat Matrix of IEM", "Placement of IEM", "Fees Structure IEM, Kolkata", "Streams in IEM, Kolkata", "Review about IEM, Kolkata" ],
+        "responses": ["you can go through this website : https://iem.edu.in/  \n You can get all information about your query"],
+        "context": [""]
+        },
+        {"tag": "University_of_Engineering_and_Management_NewTown_Query",
+         "patterns": ["Seat Matrix of university of Engineering and Management, Kolkata", "Placement of university of Engineering and Management, Kolkata", "Fees Structure of university of Engineering and Management, Kolkata", "Streams in university of Engineering and Management, Kolkata", "Review about university of Engineering and Management, Kolkata" ],
+         "responses": ["you can go through this website :https://uem.edu.in/  \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "UEM_Query",
+        "patterns": ["Seat Matrix of UEM, Kolkata", "Placement of UEM, Kolkata", "Fees Structure of UEM, Kolkata", "Streams in UEM, Kolkata", "Review about UEM, Kolkata" ],
+        "responses": ["you can go through this website :https://uem.edu.in/  \n You can get all information about your query"],
+        "context": [""]
+        },
+        {"tag": "Heritage_Institute_of_Technology_Query",
+         "patterns": ["seat matrix of Heritage Institute of Technology","Placement of Heritage_Institute_of_Technology", "Fees Structure of Heritage_Institute_of_Technology", "Streams in Heritage_Institute_of_Technology", "Review about Heritage_Institute_of_Technology" ],
+         "responses": ["you can go through this website : https://www.heritageit.edu/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "MAKAUT_Query",
+         "patterns": ["Seat Matrix of MAKAUT", "Placement of MAKAUT", "Fees Structure of MAKAUT", "Streams in MAKAUT", "Review about MAKAUT" ],
+         "responses": ["you can go through this website : https://makautwb.ac.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "Haldia_Institute_of_Technology_Query",
+         "patterns": ["Seat Matrix of Haldia Institute of Technology", "Placement of Haldia Institute of Technology", "Fees Structure of Haldia Institute of Technology", "Streams in Haldia Institute of Technology", "Review about Haldia Institute of Technology" ],
+         "responses": ["you can go through this website : https://hithaldia.ac.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+
+        {"tag": "Techno_India_University_Query",
+         "patterns": ["Seat Matrix of Techno India University", "Placement of Techno India University", "Fees Structure of Techno India University", "Streams in Techno India University", "Review about Techno India University" ],
+         "responses": ["you can go through this website : https://www.ticollege.ac.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "Amity_University_Kolkata_Query",
+         "patterns": ["Seat Matrix of Amity University Kolkata ", "Placement of Amity University Kolkata", "Fees Structure of Amity University Kolkata", "Streams in Amity University Kolkata", "Review about Amity University Kolkata" ],
+         "responses": ["you can go through this website :https://amity.edu/  \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "MCKV_Institute_of_Engineering_Query",
+         "patterns": ["Seat Matrix of MCKV Institute of Engineering", "Placement of MCKV Institute of Engineering", "Fees Structure of MCKV Institute of Engineering", "Streams in MCKV Institute of Engineering", "Review about MCKV Institute of Engineering" ],
+         "responses": ["you can go through this website : https://www.mckvie.edu.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "Narula_Institute_of_Technology_Query",
+         "patterns": ["Seat Matrix of Narula Institute of Technology", "Placement of Narula Institute of Technology", "Fees Structure of Narula Institute of Technology", "Streams in Narula Institute of Technology", "Review about Narula Institute of Technology" ],
+         "responses": ["you can go through this website : https://www.nit.ac.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "Adamas_University_Query",
+         "patterns": ["Seat Matrix of Adamas University ", "Placement of Adamas University", "Fees Structure of Adamas University", "Streams in Adamas University", "Review about Adamas University" ],
+         "responses": ["you can go through this website : https://adamasuniversity.ac.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "RCC_Institute_of_Information_Technology_Query",
+         "patterns": ["Seat Matrix of RCC Institute of Information Technology", "Placement of RCC Institute of Information Technology", "Fees Structure of RCC Institute of Information Technology", "Streams in RCC Institute of Information Technology", "Review about RCC Institute of Information Technology" ],
+         "responses": ["you can go through this website : https://rcciit.org/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "RCCIT_Query",
+        "patterns": ["Seat Matrix of RCCIIT", "Placement of RCCIT", "Fees Structure of RCCIT", "Streams in RCCIT", "Review about RCCIT" ],
+        "responses": ["you can go through this website : https://rcciit.org/ \n You can get all information about your query"],
+        "context": [""]
+        },
+        {"tag": "Swami_Vivekananda_Institute_of_Science_and_Technology_Query",
+         "patterns": ["Seat Matrix of Swami Vivekananda Institute of Science and Technology", "Placement of Swami Vivekananda Institute of Science and Technology", "Fees Structure of Swami Vivekananda Institute of Science and Technology", "Streams in Swami Vivekananda Institute of Science and Technology", "Review about Swami Vivekananda Institute of Science and Technology" ],
+         "responses": ["you can go through this website :https://svist.org/  \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "Swami_Vivekananda_University_Query",
+         "patterns": ["Seat Matrix of Swami Vivekananda University (SVU)", "Placement of Swami Vivekananda University (SVU)", "Fees Structure of Swami Vivekananda University (SVU)", "Streams in Swami Vivekananda University (SVU)", "Review about Swami Vivekananda University (SVU)" ],
+         "responses": ["you can go through this website : https://www.swamivivekanandauniversity.ac.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "SVU_Query",
+        "patterns": ["Seat Matrix of Swami Vivekananda University (SVU)", "Placement of Swami Vivekananda University (SVU)", "Fees Structure of Swami Vivekananda University (SVU)", "Streams in Swami Vivekananda University (SVU)", "Review about Swami Vivekananda University (SVU)" ],
+        "responses": ["you can go through this website : https://www.swamivivekanandauniversity.ac.in/ \n You can get all information about your query"],
+        "context": [""]
+        },
+        {"tag": "The_Neotia_Universit_Query",
+         "patterns": ["Seat Matrix of The Neotia University (TNU)", "Placement of The Neotia University (TNU)", "Fees Structure of The Neotia University (TNU)", "Streams in The Neotia University (TNU)", "Review about The Neotia University (TNU)" ],
+         "responses": ["you can go through this website : https://www.tnu.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "TNU_Query",
+        "patterns": ["Seat Matrix of TNU", "Placement of TNU", "Fees Structure of TNU", "Streams in TNU", "Review about TNU" ],
+        "responses": ["you can go through this website : https://www.tnu.in/ \n You can get all information about your query"],
+        "context": [""]
+        },
+        {"tag": "Kalyani_Government_Engineering_College_Query",
+         "patterns": ["Seat Matrix of Kalyani Government Engineering College (KGEC)", "Placement of Kalyani Government Engineering College (KGEC)", "Fees Structure of Kalyani Government Engineering College (KGEC)", "Streams in Kalyani Government Engineering College (KGEC)", "Review about Kalyani Government Engineering College (KGEC)" ],
+         "responses": ["you can go through this website : https://www.kgec.edu.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "KGEC_Query",
+        "patterns": ["Seat Matrix of KGEC", "Placement of KGEC", "Fees Structure of KGEC", "Streams in KGEC", "Review about KGEC" ],
+        "responses": ["you can go through this website : https://www.kgec.edu.in/ \n You can get all information about your query"],
+        "context": [""]
+        },
+        {"tag": "Jalpaiguri_Government_Engineering_College_Query",
+         "patterns": ["Seat matrix of Jalpaiguri Government Engineering College","Placement of Jalpaiguri Government Engineering College", "Fees Structure of Jalpaiguri Government Engineering College", "Streams in Jalpaiguri Government Engineering College", "Review about Jalpaiguri Government Engineering College" ],
+         "responses": ["you can go through this website : http://jgec.ac.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "JGEC_Query",
+        "patterns": ["Seat matrix of JGEC","Placement of JGEC", "Fees Structure of JGEC", "Streams in JGEC", "Review about JGEC" ],
+        "responses": ["you can go through this website : http://jgec.ac.in/ \n You can get all information about your query"],
+        "context": [""]
+        },
+        {"tag": "Government_College_of_Engineering_and_Leather_Technology_Query",
+         "patterns": ["Seat Matrix of Government College of Engineering and Leather Technology (GCELT)", "Placement of Government College of Engineering and Leather Technology ", "Fees Structure of Government College of Engineering and Leather Technology ", "Streams in Government College of Engineering and Leather Technology ", "Review about Government College of Engineering and Leather Technology " ],
+         "responses": ["you can go through this website : https://gcelt.gov.in/ \n You can get all information about your query"],
+         "context": [""]
+        },
+        {"tag": "GCELT_Query",
+        "patterns": ["Seat Matrix of GCELT", "Placement of GCELT ", "Fees Structure of GCELT ", "Streams in GCELT ", "Review about GCELT" ],
+        "responses": ["you can go through this website : https://gcelt.gov.in/ \n You can get all information about your query"],
+        "context": [""]
+        },
+        {"tag": "Kolkata_Medical_College_Kolkata_query",
+         "patterns": ["Seat Matrix of Medical college", "Placement of Medical college", "Fees Structure of Medical college", "Streams in Medical college", "Review about Medical college" ],
+         "responses": ["you can go through this website :https://www.medicalcollegekolkata.in/  \n"],
+         "context": [""]
+        },
+        {"tag": "Institute_of_Postgraduate_Medical_Education_and_Research_query ",
+         "patterns": ["Seat Matrix of Institute of Postgraduate Medical Education and Research (IPGMER) ", "Placement of Institute of Postgraduate Medical Education and Research (IPGMER)", "Fees Structure of Institute of Postgraduate Medical Education and Research (IPGMER)", "Streams in Institute of Postgraduate Medical Education and Research (IPGMER)", "Review about Institute of Postgraduate Medical Education and Research (IPGMER)" ],
+         "responses": ["you can go through this website : https://www.ipgmer.gov.in/  \n You can get all your queries from the official website of the college"],
+         "context": [""]
+        },
+        {"tag": "IPGMER_query ",
+        "patterns": ["Seat Matrix of Institute of Postgraduate Medical Education and Research (IPGMER) ", "Placement of Institute of Postgraduate Medical Education and Research (IPGMER)", "Fees Structure of Institute of Postgraduate Medical Education and Research (IPGMER)", "Streams in Institute of Postgraduate Medical Education and Research (IPGMER)", "Review about Institute of Postgraduate Medical Education and Research (IPGMER)" ],
+        "responses": ["you can go through this website : https://www.ipgmer.gov.in/  \n You can get all your queries from the official website of the college"],
+        "context": [""]
+        },
+        {"tag": "R_G_Kar_Medical_College_and_Hospital_query ",
+         "patterns": ["Seat Matrix of R.G Kar Medical College and Hospital ", "Placement ofR.G Kar Medical College and Hospital", "Fees Structure of R.G Kar Medical College and Hospital", "Streams in R.G Kar Medical College and Hospital", "Review about R.G Kar Medical College and Hospital" ],
+         "responses": ["you can go through this website :https://rgkarmch.org/   \n You can get all your queries from the official website of the college"],
+         "context": [""]
+        },
+        {"tag": "Calcutta_National_Medical_College_query",
+         "patterns": ["Seat Matrix of  Calcutta National Medical College ", "Placement of  Calcutta National Medical College", "Fees Structure of  Calcutta National Medical College", "Streams in  Calcutta National Medical College", "Review about  Calcutta National Medical College" ],
+         "responses": ["you can go through this website : https://www.cnmckolkata.com/ \n You can get all your queries from the official website of the college"],
+         "context": [""]
+        },
+        {"tag": "Bankura_Sammilani_Medical_College_query",
+         "patterns": ["Seat Matrix of Bankura Sammilani Medical College ", "Placement of Bankura Sammilani Medical College", "Fees Structure of Bankura Sammilani Medical College", "Streams in Bankura Sammilani Medical College", "Review about Bankura Sammilani Medical College" ],
+         "responses": ["you can go through this website : https://bsmedicalcollege.org.in/ \n You can get all your queries from the official website of the college"],
+         "context": [""]
+        },
+        {"tag": "Nil_Ratan_sircar_government_medical_college_query",
+         "patterns": ["Seat Matrix of Nil_Ratan_sircar_government_medical_college ", "Placement of Nil_Ratan_sircar_government_medical_college", "Fees Structure of Nil_Ratan_sircar_government_medical_college", "Streams in Nil_Ratan_sircar_government_medical_college", "Review about Nil_Ratan_sircar_government_medical_college" ],
+         "responses": ["you can go through this website :  https://www.nrsmc.edu.in/  \n You can get all your queries from the official website of the college"],
+         "context": [""]
+        },
+        {"tag": "North_Bengal_Medical_College_query ",
+         "patterns": ["Seat Matrix of North Bengal Medical College  ", "Placement of North Bengal Medical College ", "Fees Structure ofNorth Bengal Medical College ", "Streams in North Bengal Medical College ", "Review about North Bengal Medical College " ],
+         "responses": ["you can go through this website :https://nbmch.ac.in/ \n You can get all your queries from the official website of the college"],
+         "context": [""]
+        },
+        {"tag": "Burdwan_Medical_College_query",
+         "patterns": ["Seat Matrix of  Burdwan Medical College", "Placement of  Burdwan Medical College", "Fees Structure of  Burdwan Medical College", "Streams in  Burdwan Medical College", "Review about  Burdwan Medical College" ],
+         "responses": ["you can go through this website : https://www.burmed.org/  \n You can get all your queries from the official website of the college"],
+         "context": [""]
+        },
+        {"tag": "College_of_Medicine_and_JNM_Hospital_query",
+         "patterns": ["Seat Matrix of  College of Medicine and JNM Hospital ", "Placement of  College of Medicine and JNM Hospital", "Fees Structure of  College of Medicine and JNM Hospital", "Streams in  College of Medicine and JNM Hospital", "Review about  College of Medicine and JNM Hospital" ],
+         "responses": ["you can go through this website : https://comjnmh.ac.in/  \n You can get all your queries from the official website of the college"],
+         "context": [""]
+        },
+        {"tag": "Kolkata_Medical_College_Kolkata_query",
+         "patterns": ["Seat Matrix of Medical college", "Placement of Medical college", "Fees Structure of Medical college", "Streams in Medical college", "Review about Medical college" ],
+         "responses": ["you can go through this website :https://www.medicalcollegekolkata.in/  \n You can get all your queries from the official website of the college"],
+         "context": [""]
+        },
+        {"tag": "Kolkata_Medical_College_Kolkata_query",
+        "patterns": ["Seat Matrix of Medical college", "Placement of Medical college", "Fees Structure of Medical college", "Streams in Medical college", "Review about Medical college" ],
+        "responses": ["you can go through this website :https://www.medicalcollegekolkata.in/  \n You can get all your queries from the official website of the college"],
+        "context": [""]
+        },
+        {"tag": "AIIMS_Kalyani_query",
+        "patterns": ["Seat Matrix of Murshidabad AIIMS Kalyani college", "Placement of AIIMS Kalyani college", "Fees Structure of AIIMS Kalyani college", "Streams in AIIMS Kalyani college", "Review about AIIMS Kalyani college" ],
+        "responses": ["you can go through this website :https://aiimskalyani.edu.in/  \n You can get all your queries from the official website of the college"],
+        "context": [""]
+        },
+        {"tag": " St_Xaviers_College_Kolkata_query",
+         "patterns": ["Seat Matrix of  St Xaviers College - Kolkata ", "Placement of  St Xaviers College - Kolkata", "Fees Structure of  St Xaviers College - Kolkata", "Streams in  St Xaviers College - Kolkata", "Review about  St Xaviers College - Kolkata" ],
+         "responses": ["you can go through this website :https://www.sxccal.edu/   \n This is the Official site of the college, You can find your answer"],
+         "context": [""]
+        },
+        {"tag": " Asutosh_College_Kolkata_query",
+         "patterns": ["Seat Matrix of  Asutosh College, Kolkata ", "Placement of  Asutosh College, Kolkata", "Fees Structure of  Asutosh College, Kolkata", "Streams in  Asutosh College, Kolkata", "Review about  Asutosh College, Kolkata" ],
+         "responses": ["you can go through this website :https://asutoshcollege.in/new-web/  \n This is the Official site of the college, You can find your answer"],
+         "context": [""]
+        },
+        {"tag": " Bethune_College_Kolkata_query",
+         "patterns": ["Seat Matrix of Bethune College, Kolkata", "Placement of  Bethune College, Kolkata", "Fees Structure of  Bethune College, Kolkata", "Streams in  Bethune College, Kolkata", "Review about  Bethune College, Kolkata" ],
+         "responses": ["you can go through this website : http://www.bethunecollege.ac.in/ \n This is the Official site of the college, You can find your answer"],
+         "context": [""]
+        },
+        {"tag": "JIS_College_Tour",
+         "patterns": ["Show me the 360 degree view of Jis"],
+         "responses": ["Watch it Here : https://www.youtube.com/watch?v=qFTGhhX99H8&t=143s"],
+         "context": [""]
+        },
+        {"tag": " Shri_Shikshayatan_College_Kolkata_query",
+         "patterns": ["Seat Matrix of Shri Shikshayatan College, Kolkata ", "Placement of  Shri Shikshayatan College, Kolkata", "Fees Structure of  Shri Shikshayatan College, Kolkata", "Streams in  Shri Shikshayatan College, Kolkata", "Review about  Shri Shikshayatan College, Kolkata" ],
+         "responses": ["you can go through this website : https://shrishikshayatancollege.org/  \n This is the Official site of the college, You can find your answer"],
+         "context": [""]
+        }
+        
+   ]
+}
