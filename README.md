@@ -1,10 +1,10 @@
 # College Enquiry Chatbot
 
-Welcome to the College Enquiry Chatbot! This chatbot is designed to provide information and answer questions related to college admissions, programs, courses, campus facilities, and more. It aims to assist prospective students, parents, and anyone interested in learning about the college.
+Welcome to the College Enquiry Chatbot! This chatbot is designed to provide information and answer questions related to college admissions, programs, courses, campus facilities, and more. Also you can get Official Websites of the respective colleges so that you cn interact with the college officials if you want to connect with them. It aims to assist prospective students, parents, and anyone interested in learning about the college.
 
 ## How to Use
 
-To interact with the chatbot, simply type your questions or queries in the chat window. The chatbot will analyze your input and provide appropriate responses based on the information available. Please note that while the chatbot strives to provide accurate and up-to-date information, it may not have the most recent updates. Therefore, it's always advisable to verify the information from official college sources.
+To interact with the chatbot, simply type your questions or queries in the chat window. The chatbot will analyze your input and provide appropriate responses based on the information available. It may possible that you can get the wrong reply, don't worry. Share your questions in the mailbox. 
 
 ## Features
 
@@ -28,15 +28,12 @@ The College Enquiry Chatbot offers several features to enhance your user experie
 
 9. **Technical Support**: In case you encounter any technical issues or have difficulties with the chatbot, you can seek assistance from the support team by providing feedback or reporting the problem.
 
-Please note that the chatbot may not be able to answer all questions, especially those requiring personalized or confidential information. In such cases, it will guide you to contact the college administration directly.
+Please note that the chatbot may not be able to answer all questions, especially those requiring personalized or confidential information. In such cases, it will guide you to contact the college administration directly or search it directly in Google.
 
 ## Feedback and Improvement
 
-We value your feedback! If you have any suggestions or encounter any issues while using the chatbot, please provide your feedback to the support team. Your input will help us improve the chatbot and enhance its capabilities.
+We value your feedback! If you have any suggestions or encounter any issues while using the chatbot, please provide your feedback to the support team by sending the mail and it is mentioned in the chat-area. Your input will help us improve the chatbot and enhance its capabilities.
 
-## Disclaimer
-
-The College Enquiry Chatbot is an automated system designed to assist users with general information about the college. While it strives to provide accurate and up-to-date information, it should not be considered a substitute for official college communications or advice. Always refer to the official college website or contact the college administration for the most accurate and reliable information.
 
 ## Conclusion
 
